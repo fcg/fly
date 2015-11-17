@@ -8,7 +8,6 @@ else
 	desc="$1"
 fi
 
-git pull origin master
 git pull origin gh-pages:gh-pages
 git add . && \
 git add -u && \
