@@ -3,7 +3,7 @@ layout: news_item
 title: 'csq了，幸好有fly'
 date: 2015-11-13 10:06:51 +0800
 author: HERO1
-categories: [评价]
+categories: [say]
 bbsid: 8598
 ---
 
