@@ -8,9 +8,9 @@
         <a href="/news/pj/">会员评价</a>
       </li>
     </ul>
-    <h4>飞出国动态</h4>
+    <h4>最新评价</h4>
     <ul>
-      {% for post in site.categories.fly limit:5 %}
+      {% for post in site.categories.say limit:5 %}
       <li class="{% if page.title == post.title %}current{% endif %}">
         <a href="{{ post.url }}">{{ post.title }}</a>
       </li>
@@ -22,11 +22,11 @@
     <h4>其他关注</h4>
     <ul>
         {% for post in site.posts %}
-        {% unless post.categories contains 'say' %}
+        {% if post.categories contains 'fly' %}
         <li class="{% if page.title == post.title %}current{% endif %}">
           <a href="{{ post.url }}">{{ post.title }}</a>
         </li>
-        {% endunless %}
+        {% endif %}
         {% endfor %}
     </ul>
   </aside>
