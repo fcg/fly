@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Docker Marketing Site
 
 ## Requirements
@@ -37,3 +38,8 @@ This will assemble all the pages and compile the Sass. You're all set to start w
 * `src/assets`: All assets (scss, images, fonts, js, etc) go here.
 * `src/assets/scss/_settings.scss`: Foundation configuration settings go in here.
 * `src/assets/scss/app.scss`: Application styles go here.
+=======
+# 飞出国香港 site
+
+This directory contains the flyabroad hk site, [flyabroad.com.hk](http://flyabroad.com.hk/).
+>>>>>>> a0f8edc77a1e6b6038c735fcd30339e631a0da3d

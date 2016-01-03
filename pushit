@@ -8,8 +8,16 @@ else
 	desc="$1"
 fi
 
+<<<<<<< HEAD
 git pull origin gh-pages
 git add . && \
 git add -u && \
 git commit -m "$desc" && \
 git push -u origin gh-pages
+=======
+git pull origin gh-pages:gh-pages
+git add . && \
+git add -u && \
+git commit -m "$desc" && \
+git push -u "origin" gh-pages:gh-pages
+>>>>>>> a0f8edc77a1e6b6038c735fcd30339e631a0da3d
