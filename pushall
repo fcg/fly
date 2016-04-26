@@ -9,7 +9,7 @@ else
 fi
 
 git pull origin gh-pages:gh-pages
-jekyll b
+jekyll build
 git add . && \
 git add -u && \
 git commit -m "$desc" && \
