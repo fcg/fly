@@ -15,4 +15,4 @@ git add -u && \
 git commit -m "$desc" && \
 git push -u "origin" gh-pages:gh-pages
 
-cd _site && pushit "build-new-fly.me"
+cd _site && sh pushit "build-new-fly.me"
